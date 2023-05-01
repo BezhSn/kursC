@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form action="check.php" method="post" >
+            <div class="form-element">
+                <label>Имя пользователя</label>
+                <input type="text" name="username" pattern="[a-zA-Z0-9]+" required /><br><br>
+            </div>
+            <div class="form-element">
+                <label>Логин</label>
+                <input type="email" name="email" required /><br><br>
+            </div>
+            <div class="form-element">
+                <label>Пароль</label>
+                <input type="password" name="password" required /><br><br>
+            </div>
+        <button type="submit" name="register" value="register">Зарегистрироваться</button>
+        </form>
+    </div>
+</body>
+</html>
+
